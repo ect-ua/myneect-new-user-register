@@ -1,0 +1,473 @@
+/* This CSS is autocompiled by LESS parser. Don't edit it manually. */
+
+.myneect-container {
+    margin: 50px 30px 0 30px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #d60;
+}
+
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.inline { display: inline; }
+html, body { background-color: #1b567b; }
+body {
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif !important;
+  line-height: 1.5em !important;
+}
+div.narrow {
+  width: 1000px;
+  margin: 0 auto;
+}
+#topbar, #middlezone, #bottomzone {
+  width: 100%;
+  text-align: center;
+  font-size: 1em !important;
+}
+#topbar {
+  height: 101px;
+  border-bottom: 3px solid #dddddd;
+  background: #eee;
+}
+#topbar #app-logo {
+  margin: 0px 0 0px 30px;
+  width: 300px;
+  background: transparent url(https://neect.aauav.pt/myneect.png) no-repeat;
+  float: left;
+}
+/*#topbar #app-logo:hover { background: transparent url(images/myneect_logo_color.png) no-repeat; }*/
+#topbar #app-logo > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+#topbar #main-nav {
+  margin: 14px 0 0 50px;
+  float: left;
+}
+#topbar #main-nav ul { float: left; }
+#topbar #main-nav ul li {
+  margin: 0 20px;
+  font-weight: bold;
+  float: left;
+}
+#topbar #main-nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 85%;
+  border: 1px solid transparent;
+  outline: none;
+}
+#topbar #main-nav ul li a:hover {
+  border-bottom-width: 2px;
+  border-color: #f0f0f0 #666666 #dddddd #f0f0f0;
+  background-color: #dddddd;
+  color: #555555;
+}
+#topbar #main-nav ul li.active a {
+  margin-top: -5px;
+  padding-top: 5px;
+  border-bottom-width: 5px;
+  border-color: #f0f0f0 #666666 #ffffff #f0f0f0;
+  background-color: #ffffff;
+  color: #1b567b;
+  font-size: 100%;
+}
+#topbar #user-area {
+  margin-top: 2px;
+  margin-right: 30px;
+  color: #eeeeee;
+  font-size: 80%;
+  border-bottom: 1px dotted #dddddd;
+  float: right;
+}
+#topbar #user-area a:link {
+  text-decoration: none;
+  color: #efefef;
+}
+#topbar #user-area a:visited {
+  text-decoration: none;
+  color: #efefef;
+}
+#topbar #user-area a:active {
+  text-decoration: none;
+  color: #efefef;
+}
+#topbar #user-area a:hover {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+#topbar #user-area .user-icon {
+  float: left;
+  margin: 5px 3px 0 3px;
+  background-image: url(images/user-icon.png);
+}
+#middlezone {
+  padding: 15px 0;
+  background-color: #ffffff;
+}
+#middlezone div.narrower {
+  width: 900px;
+  margin: 0 auto;
+}
+#middlezone h2 { text-align: left; }
+#middlezone h3 { text-align: left; }
+#middlezone h4 { text-align: left; }
+#middlezone h2.page-title {
+  font-size: 120%;
+  color: #896910;
+  border-bottom: 2px solid #896910;
+  padding-bottom: 2px;
+  margin: 5px 0 20px 0;
+}
+#middlezone h4 {
+  font-size: 100%;
+  font-weight: bold;
+  color: #1b567b;
+  text-indent: 0.6em;
+}
+#bottomzone {
+  border-top: 4px solid #dddddd;
+  background-color: #1b567b;
+}
+#bottomzone div.shadow {
+  width: 100%;
+  height: 10px;
+  background-color: #2f84b8;
+}
+#bottomzone #footer {
+  font: 90% arial, sans-serif !important;
+  color: #98b4cb;
+  padding: 10px 0 50px 0;
+  margin: 0 30px;
+  clear: both;
+}
+#bottomzone #footer-nav {
+  clear: left;
+  padding: 2px 0;
+  float: left;
+}
+#bottomzone #platform-info {
+  clear: left;
+  padding: 2px 0;
+  float: left;
+}
+#bottomzone #footer-nav {
+  margin-top: 17px;
+  border-bottom: 3px solid #266a93;
+}
+#bottomzone #footer li { display: inline; }
+#bottomzone #platform-info li { padding: 0 2px; }
+#bottomzone #footer a {
+  text-decoration: none;
+  color: #d1dfeb;
+}
+#bottomzone #footer a:hover {
+  text-decoration: underline;
+  color: #dfeaf2;
+}
+#bottomzone #powered-by {
+  margin-top: 15px;
+  padding-top: 2px;
+  padding-left: 40px;
+  width: 250px;
+  height: 55px;
+  background: transparent url(images/ieeta_logo.png) no-repeat 0 3px;
+  text-align: left;
+  float: right;
+}
+.content-page {
+  padding: 10px;
+  text-align: left;
+}
+.content-page h3 {
+  font-family: "ff-scala-sans-web-1", "ff-scala-sans-web-2", "Lucida Grande", "Helvetica", sans-serif !important;
+  font-size: 130%;
+  font-weight: bold;
+  color: #444444;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 6px;
+  padding-bottom: 3px;
+}
+.content-page p {
+  font-family: "ff-scala-web-1", "ff-scala-web-2", "Georgia", sans-serif !important;
+  color: #333333;
+  margin-bottom: 1em;
+  text-indent: 14px;
+}
+.content-page a:link { color: #555555; }
+.content-page a:visited { color: #555555; }
+.content-page a:active { color: #555555; }
+.content-page a:hover { color: #f5a727; }
+.news-item { margin-bottom: 3em; }
+.news-item h3 { color: #77724c; }
+.news-item .news-info { margin-bottom: 15px; }
+.news-item .news-info li {
+  display: inline;
+  margin: 0 0 10px 6px;
+  font-size: 80%;
+  color: #444444;
+}
+.news-item .news-info li img {
+  margin: 0 4px;
+  vertical-align: middle;
+}
+.news-item .news-content { margin: 0 5px; }
+.news-item .news-content .list {
+  font-family: "ff-scala-web-1", "ff-scala-web-2", "Georgia", sans-serif !important;
+  color: #333333;
+  margin: 0 0 1em 2em;
+}
+.legal h3 { margin-bottom: 20px; }
+.legal dt { font-family: "ff-scala-web-1", "ff-scala-web-2", "Georgia", sans-serif !important; }
+.legal dd { font-family: "ff-scala-web-1", "ff-scala-web-2", "Georgia", sans-serif !important; }
+.legal li { font-family: "ff-scala-web-1", "ff-scala-web-2", "Georgia", sans-serif !important; }
+.legal dt {
+  font-weight: 600;
+  text-indent: 0.6em;
+}
+.legal dd {
+  margin-bottom: 1.2em;
+  text-indent: 1.4em;
+}
+.legal ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.legal li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.legal li { margin-left: 1em; }
+.legal ul li:after { content: "; "; }
+.legal ul li:last-child:after { content: ". "; }
+.error-page { text-align: center; }
+.error-page img {
+  border: none;
+  width: 600px;
+  height: 465px;
+  margin: 0 auto;
+}
+div.boxed-form {
+  background-color: #f2fafe;
+  border: 10px solid #dddddd;
+  padding: 15px 0;
+  color: #666666;
+}
+div.boxed-form h2 {
+  color: #111111;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+  margin: 0 20px 15px 20px;
+}
+div.boxed-form h2 span.ui-icon { float: right; }
+div.my-form ul li.form-row {
+  position: relative;
+  text-align: left;
+  margin: 7px auto;
+}
+div.my-form ul li.form-row > label { display: block; }
+div.my-form ul li.form-row.inline-label > label { display: inline; }
+div.my-form ul li.form-row-splitted > div { width: 48%; }
+div.my-form .error-summary {
+  border-color: #f9b39a;
+  margin: 0 30px;
+  padding: 2px 5px;
+  text-align: left;
+}
+div.my-form .error-summary .ui-icon {
+  margin: 5px 5px 0 0;
+  float: left;
+}
+div.my-form .errortip {
+  width: 100%;
+  color: #000000;
+  font-size: 75%;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-top-color: transparent;
+  margin-top: -2px;
+  padding-left: 0.3em;
+}
+div.my-form input { padding: 2px 0; }
+div.my-form input.error {
+  border: 1px solid #e43d3d !important;
+  background: #ffebeb url(images/exclamation.png) no-repeat 2px center !important;
+  text-indent: 20px !important;
+}
+div.my-form input[type="text"] {
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding-left: 0.3em;
+}
+div.my-form input[type="text"]:focus {
+  border-color: #2f84b8;
+  color: #1b567b;
+}
+div.my-form input[type="password"] {
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding-left: 0.3em;
+}
+div.my-form input[type="password"]:focus {
+  border-color: #2f84b8;
+  color: #1b567b;
+}
+div.my-form input[type="submit"] {
+  padding: 3px 7px;
+  border: 1px solid #1b567b;
+  background-color: #2f84b8;
+  color: #ffffff;
+  font-weight: bold;
+}
+div.my-form input[type="submit"]:hover { border-color: #ff9418; }
+div.my-form input[type="submit"]:focus { border-color: #ff9418; }
+div.my-form input[disabled="disabled"] {
+  border: 1px solid #dddddd;
+  background-color: #eeeeee;
+  color: #666666;
+}
+div.my-form .help {
+  display: block;
+  width: 100%;
+  font-size: 80%;
+  font-style: italic;
+  color: #a26d05;
+}
+div.my-form .smaller-rightie {
+  font-size: 90%;
+  float: right;
+}
+div.my-form .single-row-centered {
+  padding-top: 1.3em;
+  text-align: right;
+}
+div.my-form .radio-widget-row ul.radio_list {
+  text-align: center;
+  margin: 10px auto;
+}
+div.my-form .radio-widget-row ul.radio_list li { display: inline; }
+div.my-form .radio-widget-row ul.radio_list li input.radio-widget { display: none; }
+div.my-form .radio-widget-row ul.radio_list li input.radio-widget + label {
+  font-size: 0.9em;
+  border: 1px solid #cccccc;
+  background: #f6f6f6 url(http://neect.ieeta.pt/css/images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+  color: #1c94c4;
+  outline: none;
+  padding: 0.5em 0.7em;
+  font-weight: bold;
+}
+div.my-form .radio-widget-row ul.radio_list li input.radio-widget:checked + label {
+  border-color: #fbd850;
+  background: #ffffff url(http://neect.ieeta.pt/css/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+  color: #eb8f00;
+}
+div.my-form .buttons { margin-top: 15px; }
+div.my-form a { color: #2f84b8; }
+div.my-form a:hover { text-decoration: none; }
+div.my-form hr.dashed {
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  border-bottom: 4px dashed #dddddd;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 15px 0;
+}
+#register-form {
+  width: 700px;
+  margin: 15px auto;
+}
+#register-form ul li.form-row { width: 90%; }
+#register-form a { text-decoration: none; }
+#register-form #eula {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  display: block;
+  height: 140px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 8px 0 8px 8px;
+  width: 99%;
+}
+#register-form #eula p { margin-bottom: 0.9em; }
+#login-form {
+  width: 450px;
+  margin: 15px auto;
+}
+#login-form ul li.form-row { width: 80%; }
+#login-form .small-loader {
+  margin-top: 5px;
+  margin-right: 90px;
+  float: right;
+}
+#account-form .half-column { width: 48%; }
+#account-form .fieldset {
+  background-color: #f7f3ec;
+  color: #827e53;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+#account-form .fieldset table {
+  width: 90%;
+  margin: 15px auto;
+  font-size: 90%;
+}
+#account-form .fieldset table td { padding: 2px 4px; }
+#account-form .fieldset table td.fieldname {
+  color: #77724c;
+  text-align: right;
+  font-weight: bold;
+  vertical-align: top;
+}
+#account-form a:link {
+  color: #896910;
+  text-decoration: none;
+}
+#account-form a:visited {
+  color: #896910;
+  text-decoration: none;
+}
+#account-form a:active {
+  color: #896910;
+  text-decoration: none;
+}
+#account-form a:hover { text-decoration: underline; }
+.wrapper {
+  width: 96%;
+  margin: 0 auto;
+}
+.tipsy {
+  padding: 5px;
+  font-size: 10px;
+  filter: alpha(opacity=80);
+  background-repeat: no-repeat;
+  background-image: url(images/tipsy.gif);
+}
+.tipsy-inner {
+  padding: 5px 8px 4px 8px;
+  background-color: black;
+  color: white;
+  max-width: 400px;
+  text-align: center;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.tipsy-north { background-position: top center; }
+.tipsy-south { background-position: bottom center; }
+.tipsy-east { background-position: right center; }
+.tipsy-west { background-position: left center; }
